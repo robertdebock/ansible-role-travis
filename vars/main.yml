@@ -3,5 +3,4 @@
 travis_requirements:
   - ruby-devel
 
-travis_packages:
-  - travis
+travis_package: travis

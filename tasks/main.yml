@@ -18,7 +18,7 @@
 
 - name: install travis
   gem:
-    name: "{{ travis_packages }}"
+    name: "{{ travis_package }}"
     state: "{{ travis_package_state }}"
   register: travis_install_travis
   until: travis_install_travis is succeeded
