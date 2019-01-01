@@ -8,6 +8,14 @@
         travis_package_state == "latest" or
         travis_package_state == "absent"
 
+- name: install requirements
+  package:
+    name: "{{ travis_requirements }}"
+    state: "{{ travis_package_state }}"
+  register: travis_install_requirements
+  until: travis_install_requirements is succeeded
+  retries: 3
+
 - name: install travis
   gem:
     name: "{{ travis_packages }}"

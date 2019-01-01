@@ -1,4 +1,7 @@
 ---
 # vars file for travis
+travis_requirements:
+  - ruby-devel
+
 travis_packages:
   - travis
