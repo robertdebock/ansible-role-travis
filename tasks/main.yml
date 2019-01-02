@@ -20,6 +20,7 @@
   gem:
     name: "{{ travis_package }}"
     state: "{{ travis_package_state }}"
+    user_install: no
   register: travis_install_travis
   until: travis_install_travis is succeeded
   retries: 3
