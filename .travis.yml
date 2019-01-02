@@ -92,5 +92,5 @@ script:
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
   slack:
-    secure: "# output of `travis-encrypt robertdebock $(basename $(pwd)) # paste the token from Slack"
+    secure: "rh/izuw+0ioySp8wF9Ev2dLNU7OwYb4oEGY0WXcowFiImVh037gXiLJ4nb/gLyS+suqQkA978yApFkh8vwPWY8ATzINPdPKO1yMuXuRBiy8n/O6MbhFOFTP56wXvBKlMRZgdCYfY2nCpPFj/R0YeQ8WLHEiPDHszgtbPgcPa0Xutn8CBcLXGFJ0qZk9HB0pYW1Z/2eMRMPUzNtNImdAIYJR0E09Z5IiNwZksoiIYzcN7ehNqmJsn8GEdjNEZeCLpB00Kbsz9xyeKTfM3kI+prU0+FBumikav9YPDcH/1zI5aHJ2o/NjbXFfyhlRbZpcmslRqi7qF+4PR7PgWO0zQri6UgsQBzPWUU9B3LPe+JUUUf1ocytH8DRoIfZXXKZ60og+l8jEM6l13nyP2Tgydkhw4t5ORPexQRspHURvEfjopt7AuDirhHEeBStc35+tdDyVhqsj6xfu8JjbkQwlxVEfyVtlYwzgS7dEbJ6pbwxdFQiQvp5L/ZWTIRBf6HprIEP+KiPlqSsGTieMwmC6xmlD83Cha/6eWcdS/ZS+wp90DY2AVrDMnC7dFtyycofGgcze+Kp1d6t8RxsLUn7v9XEk0IBRnIPxHKoU2Yf0JQz13AdTLc/1E7E2bjo6jHzbxJ+l7Ie5Wwtf8eHQClAK+2p7PuInm8dUfrE99jykbJXM="
   email: false
