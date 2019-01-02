@@ -18,6 +18,7 @@ This example is taken from `molecule/default/playbook.yml`:
 
   roles:
     - role: robertdebock.bootstrap
+    - role: robertdebock.buildtools
     - role: robertdebock.ruby
     - role: robertdebock.travis
 
@@ -47,6 +48,7 @@ The following roles can be installed to ensure all requirements are met, using `
 ```yaml
 ---
 - robertdebock.bootstrap
+- robertdebock.buildtools
 - robertdebock.ruby
 
 ```
@@ -70,13 +72,13 @@ This role has been tested against the following distributions and Ansible versio
 |alpine-edge*|yes|yes|yes*|
 |alpine-latest|yes|yes|yes*|
 |archlinux|yes|yes|yes*|
-|centos-6|yes|yes|yes*|
+|centos-6|no|no|no*|
 |centos-latest|yes|yes|yes*|
 |debian-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
-|fedora-latest|yes|yes|yes*|
-|fedora-rawhide*|yes|yes|yes*|
+|fedora-latest|no|no|no*|
+|fedora-rawhide*|no|no|no*|
 |opensuse-leap|yes|yes|yes*|
 |opensuse-tumbleweed|yes|yes|yes*|
 |ubuntu-artful|yes|yes|yes*|
