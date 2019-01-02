@@ -3,7 +3,7 @@
 _travis_requirements:
   Alpine:
     - ruby-dev
-  ArchLinux:
+  Archlinux:
     - bash
   CentOS:
     - ruby-devel
