@@ -34,8 +34,10 @@ platforms:
     image: opensuse:leap
   - name: travis-opensuse-tumbleweed
     image: opensuse:tumbleweed
-  - name: travis-ubuntu-artful
-    image: ubuntu:artful
+  - name: travis-ubuntu-latest
+    image: ubuntu:latest
+  - name: travis-ubuntu-rolling
+    image: ubuntu:rolling
   - name: travis-ubuntu-devel
     image: ubuntu:devel
 provisioner:
