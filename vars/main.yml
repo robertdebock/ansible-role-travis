@@ -13,10 +13,6 @@ _travis_requirements:
     - ruby-devel
   openSUSE Leap:
     - ruby-devel
-  openSUSE Tumbleweed:
-    - ruby-devel
-  Ubuntu:
-    - ruby-dev
 
 travis_requirements: "{{ _travis_requirements[ansible_distribution] | default(_travis_requirements['devel']) }}"
 
