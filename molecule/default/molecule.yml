@@ -32,8 +32,6 @@ platforms:
     image: fedora:rawhide
   - name: travis-opensuse-leap
     image: opensuse:leap
-  - name: travis-opensuse-tumbleweed
-    image: opensuse:tumbleweed
   - name: travis-ubuntu-latest
     image: ubuntu:latest
   - name: travis-ubuntu-rolling
