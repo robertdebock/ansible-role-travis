@@ -13,15 +13,25 @@ This example is taken from `molecule/default/playbook.yml`:
 ---
 - name: Converge
   hosts: all
-  gather_facts: false
-  become: true
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - robertdebock.travis
+```
+
+The machine you are running this on, may need to be prepared. Tests have been done on machines prepared by this playbook:
+```yaml
+---
+- name: Prepare
+  hosts: all
+  gather_facts: no
+  become: yes
 
   roles:
     - role: robertdebock.bootstrap
     - role: robertdebock.buildtools
     - role: robertdebock.ruby
-    - role: robertdebock.travis
-
 ```
 
 Also see a [full explanation and example](https://robertdebock.nl/how-to-use-these-roles.html) on how to use these roles.
@@ -33,10 +43,6 @@ These variables are set in `defaults/main.yml`:
 ```yaml
 ---
 # defaults file for travis
-
-# To update packages this role places on the system, set `travis_package_state` to `latest`.
-travis_package_state: present
-
 ```
 
 Requirements
