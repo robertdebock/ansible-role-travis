@@ -96,7 +96,6 @@ This role has been tested on these [container images](https://hub.docker.com/):
 |docker-debian-systemd|yes|
 |docker-debian-systemd|yes|
 |docker-fedora-systemd|yes|
-|docker-fedora-systemd|yes|
 |opensuse/|no|
 |docker-ubuntu-systemd|yes|
 |docker-ubuntu-systemd|yes|
@@ -117,8 +116,8 @@ Some variarations of the build matrix do not work. These are the variations and 
 
 | variation                 | reason                 |
 |---------------------------|------------------------|
-| CentOS 6 | Failed to find required executable gem in path |
 | CentOS 7 | Dependency faraday requires Ruby version >= 2.3 |
+| Fedora | extconf failed, exit code 1 |
 
 
 

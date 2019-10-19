@@ -1,6 +1,6 @@
 ---
 exceptions:
-  - variation: CentOS 6
-    reason: "Failed to find required executable gem in path"
   - variation: CentOS 7
     reason: "Dependency faraday requires Ruby version >= 2.3"
+  - variation: Fedora
+    reason: "extconf failed, exit code 1"
