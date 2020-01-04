@@ -4,8 +4,6 @@ _travis_requirements:
   default: []
   Alpine:
     - ruby-dev
-  Archlinux:
-    - bash
   Debian:
     - ruby-dev
   RedHat:
