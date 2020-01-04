@@ -4,6 +4,8 @@ travis
 <img src="https://docs.ansible.com/ansible-tower/3.2.4/html_ja/installandreference/_static/images/logo_invert.png" width="10%" height="10%" alt="Ansible logo" align="right"/>
 <a href="https://travis-ci.org/robertdebock/ansible-role-travis"> <img src="https://travis-ci.org/robertdebock/ansible-role-travis.svg?branch=master" alt="Build status"/></a> <img src="https://img.shields.io/ansible/role/d/35947"/> <img src="https://img.shields.io/ansible/quality/35947"/>
 
+<a href="https://github.com/robertdebock/ansible-role-travis/actions"><img src="https://github.com/robertdebock/ansible-role-travis/workflows/GitHub%20Action/badge.svg"/></a>
+
 Installs travis on your system.
 
 Example Playbook
@@ -81,7 +83,6 @@ This role has been tested on these [container images](https://hub.docker.com/):
 |---------|----|
 |amazon|all|
 |alpine|all|
-|archlinux|all|
 |debian|all|
 |el|8|
 |opensuse|all|
