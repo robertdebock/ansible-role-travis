@@ -16,12 +16,12 @@ env:
   matrix:
     - image="alpine" tag="latest"
     - image="alpine" tag="edge"
+    - image="centos" tag="latest"
     - image="debian" tag="latest"
     - image="debian" tag="bullseye"
-    - image="centos" tag="latest"
     - image="opensuse" tag="latest"
     - image="ubuntu" tag="latest"
-    - image="ubuntu" tag="1804"
+    - image="ubuntu" tag="bionic"
 
 cache:
   - pip
