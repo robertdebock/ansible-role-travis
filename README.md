@@ -2,9 +2,9 @@
 
 Installs travis on your system.
 
-|Travis|GitHub|Quality|Downloads|
-|------|------|-------|---------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-travis.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-travis)|[![github](https://github.com/robertdebock/ansible-role-travis/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-travis/actions)|[![quality](https://img.shields.io/ansible/quality/35947)](https://galaxy.ansible.com/robertdebock/travis)|[![downloads](https://img.shields.io/ansible/role/d/35947)](https://galaxy.ansible.com/robertdebock/travis)|
+|Travis|GitHub|Quality|Downloads|Version|
+|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-travis.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-travis)|[![github](https://github.com/robertdebock/ansible-role-travis/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-travis/actions)|[![quality](https://img.shields.io/ansible/quality/35947)](https://galaxy.ansible.com/robertdebock/travis)|[![downloads](https://img.shields.io/ansible/role/d/35947)](https://galaxy.ansible.com/robertdebock/travis)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-travis.svg)](https://github.com/robertdebock/ansible-role-travis/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
