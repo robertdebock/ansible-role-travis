@@ -13,6 +13,18 @@ galaxy_info:
     - name: EL
       versions:
         - 8
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+    - name: OpenSUSE
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - focal
+        - bionic
+        - xenial
 
   galaxy_tags:
     - travis
