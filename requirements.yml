@@ -1,4 +1,5 @@
 ---
-- robertdebock.bootstrap
-- robertdebock.buildtools
-- robertdebock.ruby
+roles:
+  - name: robertdebock.bootstrap
+  - name: robertdebock.buildtools
+  - name: robertdebock.ruby
