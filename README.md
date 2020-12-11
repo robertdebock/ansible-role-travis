@@ -2,9 +2,9 @@
 
 Installs travis on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-travis.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-travis)|[![github](https://github.com/robertdebock/ansible-role-travis/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-travis/actions)|[![quality](https://img.shields.io/ansible/quality/35947)](https://galaxy.ansible.com/robertdebock/travis)|[![downloads](https://img.shields.io/ansible/role/d/35947)](https://galaxy.ansible.com/robertdebock/travis)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-travis.svg)](https://github.com/robertdebock/ansible-role-travis/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-travis.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-travis)|[![github](https://github.com/robertdebock/ansible-role-travis/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-travis/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-travis/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-travis)|[![quality](https://img.shields.io/ansible/quality/35947)](https://galaxy.ansible.com/robertdebock/travis)|[![downloads](https://img.shields.io/ansible/role/d/35947)](https://galaxy.ansible.com/robertdebock/travis)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-travis.svg)](https://github.com/robertdebock/ansible-role-travis/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -39,10 +39,11 @@ Also see a [full explanation and example](https://robertdebock.nl/how-to-use-the
 
 ## [Requirements](#requirements)
 
-- Access to a repository containing packages, likely on the internet.
-- A recent version of Ansible. (Tests run on the current, previous and next release of Ansible.)
+- pip packages listed in [requirements.txt](https://github.com/robertdebock/ansible-role-travis/blob/master/requirements.txt).
 
 ## [Status of requirements](#status-of-requirements)
+
+The following roles are used to prepare a system. You may choose to prepare your system in another way, I have tested these roles as well.
 
 | Requirement | Travis | GitHub |
 |-------------|--------|--------|
