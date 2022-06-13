@@ -1,5 +1,7 @@
 # [travis](#travis)
 
+This role is archived because of low usage.
+
 Installs travis on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
